@@ -775,6 +775,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2183432638181227808, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 602c64b285ff9484ab6f990e364b874c, type: 3}
+    - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -979,6 +987,14 @@ PrefabInstance:
     - target: {fileID: 1979744218561043758, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183432638181227808, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 602c64b285ff9484ab6f990e364b874c, type: 3}
+    - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Interactable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1214,6 +1230,14 @@ PrefabInstance:
     - target: {fileID: 1979744218561043758, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183432638181227808, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 602c64b285ff9484ab6f990e364b874c, type: 3}
+    - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Interactable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1592,6 +1616,14 @@ PrefabInstance:
     - target: {fileID: 1979744218561043758, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183432638181227808, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 602c64b285ff9484ab6f990e364b874c, type: 3}
+    - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
+      propertyPath: m_Interactable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6640111876159035069, guid: 5002fad17cd0147478d07914d40c8070, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

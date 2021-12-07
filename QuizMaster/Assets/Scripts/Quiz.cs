@@ -16,13 +16,8 @@ public class Quiz : MonoBehaviour
 
     void Start()
     {
-        questionText.text = question.GetQuestion();
-
-        for (int i = 0; i < answerButtons.Length; i++)
-        {
-            TextMeshProUGUI buttonText = answerButtons[i].GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = question.GetAnswer(i);
-        }
+        //DisplayQuestion();
+        GetNextQuestion();
     }
 
     public void OnAnswerSelected(int index)
@@ -41,6 +36,42 @@ public class Quiz : MonoBehaviour
             questionText.text = "Wrong! Correct answer is:\n" + correctAnswer;
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+        }
+        SetButtonInteractable(false);
+    }
+
+    void GetNextQuestion()
+    {
+        SetButtonInteractable(true);
+        SetDefaultButtonSprites();
+        DisplayQuestion();
+    }
+
+    void DisplayQuestion()
+    {
+        questionText.text = question.GetQuestion();
+
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            TextMeshProUGUI buttonText = answerButtons[i].GetComponentInChildren<TextMeshProUGUI>();
+            buttonText.text = question.GetAnswer(i);
+        }
+
+    }
+
+    void SetButtonInteractable(bool toggle)
+    {
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            answerButtons[i].GetComponent<Button>().interactable = toggle;
+        }
+    }
+
+    void SetDefaultButtonSprites()
+    {
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            answerButtons[i].GetComponent<Image>().sprite = defaultAnswerSprite;
         }
     }
 }
