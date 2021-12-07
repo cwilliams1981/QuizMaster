@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 001
   m_EditorClassIdentifier: 
   question: What year were the San Francisco 49ers founded?
+  answers:
+  - 1968
+  - 1946
+  - 1955
+  - 1937
+  correctAnswerIndex: 1
