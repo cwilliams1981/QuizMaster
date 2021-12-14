@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Who was the San Francisco 49ers' very first draft choice after they joined
     the NFL?
+  answers:
+  - Joe Perry
+  - Frankie Albert
+  - Y. A. Tittle
+  - Leo Nomellini
+  correctAnswerIndex: 3

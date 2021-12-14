@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: How many receiving yards did WR Jerry Rice compile during his career
     as a San Francisco 49er?
+  answers:
+  - 18,422
+  - 12,470
+  - 14,195
+  - 16,598
+  correctAnswerIndex: 0

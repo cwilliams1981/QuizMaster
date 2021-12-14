@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 004
   m_EditorClassIdentifier: 
   question: What Ohio businessman purchased the San Francisco 49ers in 1977?
+  answers:
+  - Lawrence Purcell
+  - Eddie Debartolo Jr.
+  - Tony Morabito
+  - Albert J. Ruffo
+  correctAnswerIndex: 1

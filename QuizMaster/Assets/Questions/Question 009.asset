@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Who was the first San Francisco 49er to finish his career with more than
     50 interceptions?
+  answers:
+  - Jimmy Johnson
+  - Ronnie Lott
+  - Merton Hanks
+  - Dwight Hicks
+  correctAnswerIndex: 1

@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 008
   m_EditorClassIdentifier: 
   question: Who was on the receiving end of "The Catch"?
+  answers:
+  - Terrell Owens
+  - Dwight Clark
+  - John Taylor
+  - Jerry Rice
+  correctAnswerIndex: 1

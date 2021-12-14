@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: What new offensive scheme is former 49ers head coach Bill Walsh credited
     with creating?
+  answers:
+  - No Huddle Offense
+  - West Coast Offense
+  - Run and Shoot
+  - Fun and Gun
+  correctAnswerIndex: 1

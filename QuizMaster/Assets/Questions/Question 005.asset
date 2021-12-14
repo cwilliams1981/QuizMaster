@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7fef436aa60274db41239a76789dc5, type: 3}
   m_Name: Question 005
   m_EditorClassIdentifier: 
-  question: What Ohio businessman purchased the San Francisco 49ers in 1977?
+  question: How many Super Bowls did the San Francisco 49ers win during the 1980s?
+  answers:
+  - 2
+  - 6
+  - 0
+  - 4
+  correctAnswerIndex: 3

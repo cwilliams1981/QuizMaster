@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 003
   m_EditorClassIdentifier: 
   question: The San Francisco 49ers retired jersey #12 in honor of what player?
+  answers:
+  - John Brodie
+  - Steve Young
+  - Joe Montana
+  - Joe Perry
+  correctAnswerIndex: 0

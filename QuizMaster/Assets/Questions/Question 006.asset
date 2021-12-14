@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: The San Francisco 49ers drafted QB Joe Montana in what round of the 1979
     NFL draft?
+  answers:
+  - 2nd
+  - He wasn't drafted
+  - 3rd
+  - 1st
+  correctAnswerIndex: 2
