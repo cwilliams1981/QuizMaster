@@ -12,11 +12,10 @@ public class Timer : MonoBehaviour
     
     public bool isAnsweringQuestion;
     float timerValue;
-    public bool isQuizActive = true;
 
     void Update()
     {
-        if (isQuizActive) { UpdateTimer(); }
+        UpdateTimer();
     }
 
     public void CancelTimer()
